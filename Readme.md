@@ -13,8 +13,11 @@ The basic architecture is showed in following image:
 1. lambda_handler function is implemented for getting sentiment analysis result from AWS Comprehend and returning the response. 
 2. AWS API Gateway is implemented for deploying this AWS Lambda function. 
 3. AWS SQS: SQS enables you to send, store, and receive messages between different components of your application or different applications in a loosely coupled way. It provides a reliable, scalable, and highly available way to decouple application components and enable asynchronous processing.
+4. DynamoDB: DynamoDB is implemented for store all queries. 
 
 ![image-20230325120929856](./Readme.assets/image-20230325120929856.png)
+
+![image-20230405113327916](./Readme.assets/image-20230405113327916.png)
 
 #### Usage
 

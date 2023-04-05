@@ -8,10 +8,11 @@ In this project, language sentiment analysis is deployed using AWS Lambda server
 
 The basic architecture is showed in following image:
 
-![image-20230325120545523](./Readme.assets/image-20230325120545523.png)
+![image-20230405105746071](./Readme.assets/image-20230405105746071.png)
 
 1. lambda_handler function is implemented for getting sentiment analysis result from AWS Comprehend and returning the response. 
 2. AWS API Gateway is implemented for deploying this AWS Lambda function. 
+3. AWS SQS: SQS enables you to send, store, and receive messages between different components of your application or different applications in a loosely coupled way. It provides a reliable, scalable, and highly available way to decouple application components and enable asynchronous processing.
 
 ![image-20230325120929856](./Readme.assets/image-20230325120929856.png)
 
